@@ -93,3 +93,17 @@ $$
 
 ## 优缺点
 
+优点:
+
+- 实现简单, 应用广泛
+- 分类时得计算量小, 计算速度快
+- 不仅可以进行分类, 还可以得到对应的概率值, 可以用于概率排名
+- L2正则化可以应对多重共线性的问题
+
+缺点:
+
+- 当特征空间很大时, 逻辑回归的性能不是很好
+- 容易**欠拟合**, 准确度不太高
+- 只能处理**线性可分**的数据
+
+[机器学习算法（一）：逻辑回归模型（Logistic Regression, LR）](https://blog.csdn.net/weixin_39910711/article/details/81607386?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task) 这篇文章讲解的比较全面.
